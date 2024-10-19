@@ -44,7 +44,6 @@ export async function updateTodo(obj) {
 }
 
 export async function deleteTodo(id) {
-  console.log("in action file", id);
   try {
     const res = await fetch(`http://localhost:3000/api/todos`, {
       method: "DELETE",

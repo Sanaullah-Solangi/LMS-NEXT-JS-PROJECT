@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <div className="h-screen w-full flex justify-center items-center uppercase font-medium font-mono text-5xl">
+        <div className="h-screen w-full uppercase font-medium font-mono text-5xl">
           {children}
         </div>
         <Footer />
